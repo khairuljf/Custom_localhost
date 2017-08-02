@@ -16,14 +16,13 @@
 #      102.54.94.97     rhino.acme.com          # source server
 #       38.25.63.10     x.acme.com              # x client host
 
-# localhost name resolution is handled within DNS itself.
-	127.0.0.1       localhost
+
 
 # localhost name resolution is handled within DNS itself.
 	127.0.0.1       localhost
-	127.0.0.1       eateryengine.dev #change to match your Virtual Host.
-	127.0.0.1       demo.eateryengine.dev #manually add new sub-domains.
-
 	
-
-127.0.0.1    plugin.dev
+	#custom host
+	127.0.0.1    plugin.dev
+	127.0.0.1    pranon.dev
+	127.0.0.1    theme.dev
+	
